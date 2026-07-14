@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>iTag Hub — Find your things. Keep your privacy.</title>
+  <meta name="description" content="iTag Hub turns any generic Bluetooth tracker tag into a reliable finder — ring it, track warmer/colder, and get out-of-range alerts you can trust. No account. No cloud." />
+  <link rel="icon" type="image/png" href="assets/logo.png" />
+  <meta name="theme-color" content="#9B95E8" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@700;800&family=Nunito+Sans:wght@400;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <script src="theme.js"></script>
+</head>
+<body>
+
+  <!-- ============ NAV ============ -->
+  <header class="nav">
+    <div class="wrap nav-inner">
+      <a class="brand" href="index.html">
+        <img src="assets/logo.png" alt="" />
+        iTag Hub
+      </a>
+      <div class="nav-spacer"></div>
+      <nav class="nav-links">
+        <a class="hide-sm" href="#features">Features</a>
+        <a class="hide-sm" href="privacy.html">Privacy</a>
+      </nav>
+      <button id="themeToggle" class="theme-toggle" type="button" aria-label="Switch theme">
+        <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg>
+        <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4.2"/><path d="M12 2v2.5M12 19.5V22M4.2 4.2l1.8 1.8M18 18l1.8 1.8M2 12h2.5M19.5 12H22M4.2 19.8 6 18M18 6l1.8-1.8"/></svg>
+      </button>
+    </div>
+  </header>
+
+  <!-- ============ HERO ============ -->
+  <section class="hero">
+    <div class="wrap hero-grid">
+      <div class="hero-copy">
+        <p class="eyebrow">Bluetooth item finder</p>
+        <h1>Find your things.<br /><span class="accent">Keep your privacy.</span></h1>
+        <p class="lede">
+          iTag Hub turns any generic Bluetooth tracker tag into a finder you can
+          trust — ring it, follow the warmer/colder radar, and get out-of-range
+          alerts that ignore brief signal dips.
+        </p>
+        <p class="lede">No account. No cloud. Everything stays on your phone.</p>
+
+        <div class="stores">
+          <a class="store-btn" href="https://play.google.com/store/apps/details?id=com.itaghub.app" target="_blank" rel="noopener">
+            <img src="assets/ic-google-play.svg" alt="" />
+            <span class="store-text"><small>Get it on</small><strong>Google Play</strong></span>
+          </a>
+          <span class="store-btn is-locked" role="button" aria-disabled="true" title="Coming soon to the App Store">
+            <img src="assets/ic-apple.svg" alt="" />
+            <span class="store-text"><small>Coming soon</small><strong>App Store</strong></span>
+            <span class="lock-badge" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><rect x="4.5" y="10.5" width="15" height="10" rx="2.5"/><path d="M8 10.5V7a4 4 0 0 1 8 0v3.5"/></svg>
+            </span>
+          </span>
+        </div>
+      </div>
+
+      <div class="hero-art">
+        <div class="app-preview">
+          <img class="preview-light" src="assets/app-preview-light.svg" alt="iTag Hub Find screen showing a proximity radar and a Ring button" />
+          <img class="preview-dark" src="assets/app-preview-dark.svg" alt="iTag Hub Find screen in dark mode showing a proximity radar and a Ring button" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ FEATURES ============ -->
+  <section id="features">
+    <div class="wrap">
+      <div class="section-head">
+        <p class="eyebrow">What it does</p>
+        <h2>Everything a lost-item app should be</h2>
+        <p>Reliable where it counts, honest about its limits, and private by default.</p>
+      </div>
+
+      <div class="features">
+        <article class="card">
+          <div class="ic-wrap"><img src="assets/ic-ring.svg" alt="" /></div>
+          <h3>Ring your tag</h3>
+          <p>Make your tag beep straight from the app so you can find it fast — even across the room.</p>
+        </article>
+
+        <article class="card">
+          <div class="ic-wrap"><img src="assets/ic-radar.svg" alt="" /></div>
+          <h3>Warmer / colder Find Mode</h3>
+          <p>A live proximity radar reads the signal and guides you through the last few steps.</p>
+        </article>
+
+        <article class="card">
+          <div class="ic-wrap"><img src="assets/ic-bell.svg" alt="" /></div>
+          <h3>Alerts you can trust</h3>
+          <p>Out-of-range warnings are tuned with hysteresis to ignore brief dips — no false alarms.</p>
+        </article>
+
+        <article class="card">
+          <div class="ic-wrap"><img src="assets/ic-touch.svg" alt="" /></div>
+          <h3>Your button, your rules</h3>
+          <p>One press or two triggers phone actions: play a sound, log a location, or snap a photo.</p>
+        </article>
+
+        <article class="card">
+          <div class="ic-wrap"><img src="assets/ic-bluetooth.svg" alt="" /></div>
+          <h3>Works with any tag</h3>
+          <p>Pairs with generic, no-brand BLE tracker tags. Not locked to a single manufacturer.</p>
+        </article>
+
+        <article class="card">
+          <div class="ic-wrap"><img src="assets/ic-shield.svg" alt="" /></div>
+          <h3>Private by design</h3>
+          <p>No account, no cloud, no analytics. Your tags, locations, and photos never leave the phone.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ HONESTY CALLOUT ============ -->
+  <section>
+    <div class="wrap">
+      <div class="callout">
+        <span class="dot" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="#D99A2B"><path d="M17.71 7.71L12 2h-1v7.59L6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 11 14.41V22h1l5.71-5.71-4.3-4.29 4.3-4.29zM13 5.83l1.88 1.88L13 9.59V5.83zm1.88 10.46L13 18.17v-3.76l1.88 1.88z"/></svg>
+        </span>
+        <div>
+          <h3>Bluetooth, not GPS</h3>
+          <p>
+            iTag Hub works within Bluetooth range — about 10–30 metres. It's an
+            item finder that helps you locate things nearby, not a GPS tracker,
+            and it never pretends to be one.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ FINAL CTA ============ -->
+  <section class="cta">
+    <div class="wrap">
+      <div class="cta-card">
+        <h2>Ready to stop losing your things?</h2>
+        <p>Get iTag Hub and pair your first tag in under a minute.</p>
+        <div class="stores">
+          <a class="store-btn" href="https://play.google.com/store/apps/details?id=com.itaghub.app" target="_blank" rel="noopener">
+            <img src="assets/ic-google-play.svg" alt="" />
+            <span class="store-text"><small>Get it on</small><strong>Google Play</strong></span>
+          </a>
+          <span class="store-btn is-locked" role="button" aria-disabled="true" title="Coming soon to the App Store">
+            <img src="assets/ic-apple.svg" alt="" />
+            <span class="store-text"><small>Coming soon</small><strong>App Store</strong></span>
+            <span class="lock-badge" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><rect x="4.5" y="10.5" width="15" height="10" rx="2.5"/><path d="M8 10.5V7a4 4 0 0 1 8 0v3.5"/></svg>
+            </span>
+          </span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer">
+    <div class="wrap">
+      <div class="footer-inner">
+        <a class="brand" href="index.html"><img src="assets/logo.png" alt="" /> iTag Hub</a>
+        <nav class="footer-links">
+          <a href="#features">Features</a>
+          <a href="privacy.html">Privacy Policy</a>
+          <a href="mailto:support@brosdolz.com">Contact</a>
+        </nav>
+      </div>
+      <small>
+        &copy; 2026 iTag Hub. iTag Hub works with generic Bluetooth tracker tags and is not affiliated with any tag manufacturer.<br />
+        Google Play and the Google Play logo are trademarks of Google LLC. Apple, the Apple logo, and App Store are trademarks of Apple Inc.
+      </small>
+    </div>
+  </footer>
+
+</body>
+</html>
